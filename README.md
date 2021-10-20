@@ -11,14 +11,14 @@ Lessons: - Testing, classes and Object Oriented Programming.
 
 ## Table of Contents:
 
-1. [Installation] (https://github.com/AarKaiser/readme_generator#installation)
-2. [Usage] (https://github.com/AarKaiser/readme_generator#usage)
-3. [Contributing] (https://github.com/AarKaiser/readme_generator#contributing)
-4. [Licenses] (https://github.com/AarKaiser/readme_generator#licenses)
-5. [Tests] (https://github.com/AarKaiser/readme_generator#tests)
-6. [Technologies] (https://github.com/AarKaiser/readme_generator#technologies)
-7. [Questions] (https://github.com/AarKaiser/readme_generator#questions)
-8. [Screenshot] (https://github.com/AarKaiser/readme_generator#screenshot)
+1. [Installation](https://github.com/AarKaiser/readme_generator#installation)
+2. [Usage](https://github.com/AarKaiser/readme_generator#usage)
+3. [Contributing](https://github.com/AarKaiser/readme_generator#contributing)
+4. [Licenses](https://github.com/AarKaiser/readme_generator#licenses)
+5. [Tests](https://github.com/AarKaiser/readme_generator#tests)
+6. [Technologies](https://github.com/AarKaiser/readme_generator#technologies)
+7. [Questions](https://github.com/AarKaiser/readme_generator#questions)
+8. [Screenshot](https://github.com/AarKaiser/readme_generator#screenshot)
 
 ## Installation: 
 
