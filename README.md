@@ -7,7 +7,7 @@ Summary: - Generates an HTML file to represent employee data collected via node.
 Motivation: - To make managing my team more efficient..
 Reason for Application: - To automate the process of classifying team-members..
 Problem Solved: - The pen and paper method for managing team members..
-Lessons: - Testing, classes and Object Oriented Programming..
+Lessons: - Testing, classes and Object Oriented Programming.
 
 ## Table of Contents:
 
@@ -22,11 +22,11 @@ Lessons: - Testing, classes and Object Oriented Programming..
 
 ## Installation: 
 
-Type NPM i in Node..
+Type NPM i in Node.
 
 ## Dependencies:
 
-This application requires: Inquerer & Jest node packages..
+This application requires: Inquerer & Jest node packages.
 
 ## Usage: 
 
@@ -39,8 +39,8 @@ Aar Kaiser
 
 ## Licenses:
 
-![License Badge] (https://img.shields.io/badge/mit-license-blue)
-Click [here] (https://choosealicense.com/licenses/mit) for MIT license information
+![License Badge](https://img.shields.io/badge/mit-license-blue)
+Click [here](https://choosealicense.com/licenses/mit) for MIT license information
 
 
 ## Tests:
