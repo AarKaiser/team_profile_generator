@@ -4,9 +4,9 @@ function renderManager (data) {
       style="width: 18rem">
       <div class="card-body">
         <div class="bg-primary p-2 rounded text-light">
-          <h5 class="card-title" id="name"> ${data.name}</h5>
+          <h5 class="card-title" id="name">${data.name}</h5>
           <h5 class="card-title" id="position">
-            <span><i class="fas fa-coffee"></i></span>Manager</h5>
+            <span><i class="fas fa-coffee"></i></span> Manager</h5>
         </div>
       </div>
       <ul class="list-group list-group-flush">
