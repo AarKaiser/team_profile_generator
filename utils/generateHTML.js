@@ -24,7 +24,7 @@ const {generateEmployee} = require("./generateEmployee");
           <h1 class="display-4 text-center text-light">My Team</h1>
         </div>
       </div>
-      <div class="row justify-content-between" id="dynaCards">
+      <div class="row justify-content-center" id="dynaCards">
       ${generateEmployee(data)}  
       </div>
     </div>
