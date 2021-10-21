@@ -3,10 +3,10 @@
           
 ## Description:
 
-Summary: - Generates an HTML file to represent employee data collected via node. .
-Motivation: - To make managing my team more efficient..
-Reason for Application: - To automate the process of classifying team-members..
-Problem Solved: - The pen and paper method for managing team members..
+Summary: - Generates an HTML file to represent employee data collected via node.
+Motivation: - To make managing my team more efficient.
+Reason for Application: - To automate the process of classifying team-members.
+Problem Solved: - The pen and paper method for managing team members.
 Lessons: - Testing, classes and Object Oriented Programming.
 
 ## Table of Contents:
@@ -45,7 +45,7 @@ Click [here](https://choosealicense.com/licenses/mit) for MIT license informatio
 
 ## Tests:
 
-TBD
+NPM test
 
 ## Technologies Used: 
 
