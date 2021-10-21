@@ -22,7 +22,7 @@ Lessons: - Testing, classes and Object Oriented Programming.
 
 ## Installation: 
 
-Type NPM i in Node.
+NPM i
 
 ## Dependencies:
 
