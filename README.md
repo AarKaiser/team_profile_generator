@@ -59,3 +59,9 @@ Email: dev@aarkaiser.com.
 Please feel free to contact me with further questions via email, which is my prefered method.
 
 ## Screenshot
+![Screenshot](https://raw.githubusercontent.com/AarKaiser/team_profile_generator/main/assets/images/screenshot.png)
+
+## Walkthough Video
+    
+[Download](https://github.com/AarKaiser/team_profile_generator/blob/main/assets/video/walkthrough.mp4?raw=true)
+
