@@ -1,5 +1,152 @@
+const inquirer = require("inquirer");
+const fs = require("fs");
+const generateHTML = require("./utils/generateHTML");
+const Manager = require("./lib/Manager");
+const Engineer = require("./lib/Engineer");
+const Intern = require("./lib/Intern");
+const storeEmployee = []
+
+const managerQuestions = [
+    {
+      type: 'input',
+      name: 'teammanagername',
+      message: 'Please enter the name of your team manager:',
+    },
+    {
+      type: 'input',
+      name: 'teammanagerid',
+      message: 'Please enter team manager Employee ID:',
+    },
+    {
+        type: 'input',
+        name: 'teammanageremail',
+        message: 'Please enter team manager email address:',
+    },
+    {
+        type: 'input',
+        name: 'officenumber',
+        message: 'Please enter office number:',
+    }
+    ]
+
+ const engineerQuestions = [
+    {
+        type: 'input',
+        name: 'engineername',
+        message: 'Please enter engineer name:',
+      },
+      {
+        type: 'input',
+        name: 'engineerid',
+        message: 'Please enter engineer Employee ID:',
+      },
+      {
+        type: 'input',
+        name: 'engineeremail',
+        message: 'Please enter engineer email address:',
+      },
+      {
+        type: 'input',
+        name: 'github',
+        message: 'Please enter engineer Github:',
+      },
+  ]
+
+const employeeQuestions = [
+    {
+        type: 'input',
+        name: 'intername',
+        message: 'Please enter intern name:',
+      },
+      {
+        type: 'input',
+        name: 'internid',
+        message: 'Please enter intern Employee ID:',
+      },
+      {
+        type: 'input',
+        name: 'internemail',
+        message: 'Please enter intern email address:',
+      },
+      {
+        type: 'input',
+        name: 'school',
+        message: 'Please enter intern Educational Instituion:',
+      },
+  ]
+
+function mainMenu(){
+    inquirer.prompt([
+        {
+            type: "list",
+            name: "choice",
+            message: "Would you like to add new members?",
+            choices: ["Engineer", "Intern", "No"]
+        }
+    ]).then(({choice}) => {
+        if(choice == "Engineer"){
+            inquirer.prompt(engineerQuestions)
+            .then(engineerAnswers => {
+                const newEngineer=  new Engineer(
+                    engineerAnswers.engineername,
+                    engineerAnswers.engineerid,
+                    engineerAnswers.engineeremail,
+                    engineerAnswers.github
+                )
+                employeeStorage.push(newEngineer)
+                // mainMenu()
+        }else if(choice == "Intern"){
+            const newIntern=  new Intern(
+                internAnswers.internname,
+                internAnswers.internid,
+                internAnswers.internemail,
+                internAnswers.school
+        }else {
+            //create the HTML format and then fs.writeFile the new HTML file
+            const htmlTemplate = generateHTML(storeEmployee)
+            fs.writeFileSync("team.html", htmlTemplate)
+        }
+    })
+}
+
+function startApp(){
+    inquirer.prompt(managerQuestions)
+    .then(managerAnswers => {
+        const newManager =  new Manager(
+            managerAnswers.teammanagername,
+            managerAnswers.teammanagerid,
+            managerAnswers.teammanageremail,
+            managerAnswers.officenumber
+        )
+        employeeStorage.push(newManager)
+        mainMenu()
+    })
+}
+
+startApp()
 
 
+
+
+
+
+
+
+
+
+
+
+
+  //make the prompter work properly
+    //add the manager
+    // add and employee and ask the user if they want to add another
+
+ //send the team data into the generateHTML
+  // loop the data to make the cards
+
+// implement the classes to the mix
+
+//testing 
 
 
 // GIVEN a command-line application that accepts user input
@@ -22,25 +169,25 @@
 
 
 
-// Constructor function called 'Developer' that takes in 'name' and 'tech'
-// Includes a method called 'introduction()'
-function Developer(name, tech) {
-    this.name = name;
-    this.tech = tech;
-    this.introduction = () => {
-      console.log(`Hi, my name is ${this.name} and I love ${this.tech}!`);
-    };
-  }
+// // Constructor function called 'Developer' that takes in 'name' and 'tech'
+// // Includes a method called 'introduction()'
+// function Developer(name, tech) {
+//     this.name = name;
+//     this.tech = tech;
+//     this.introduction = () => {
+//       console.log(`Hi, my name is ${this.name} and I love ${this.tech}!`);
+//     };
+//   }
   
-  // Creates a new object using the 'Developer' constructor
-  const rita = new Developer('Rita', 'JavaScript');
+//   // Creates a new object using the 'Developer' constructor
+//   const rita = new Developer('Rita', 'JavaScript');
   
-  // Calls the 'introduction()' method on the new object
-  rita.introduction();
+//   // Calls the 'introduction()' method on the new object
+//   rita.introduction();
 
 
-  
-  // Array.prototype.forEach()
-const myArray = [2, 4, 6, 8];
 
-myArray.forEach((num) => console.log(num));
+//   // Array.prototype.forEach()
+// const myArray = [2, 4, 6, 8];
+
+// myArray.forEach((num) => console.log(num)
