@@ -20,7 +20,7 @@ Lessons: - Testing, classes and Object Oriented Programming.
     - [Technologies](#technologies)
     - [Questions](#questions)
     - [Screenshot](#screenshot)
-    - [Screenshot](#walkthrough-video)
+    - [Walkthrough Video](#walkthrough-video)
 
 ## Installation: 
 
