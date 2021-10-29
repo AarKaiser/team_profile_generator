@@ -11,14 +11,16 @@ Lessons: - Testing, classes and Object Oriented Programming.
 
 ## Table of Contents:
 
-1. [Installation](https://github.com/AarKaiser/readme_generator#installation)
-2. [Usage](https://github.com/AarKaiser/readme_generator#usage)
-3. [Contributing](https://github.com/AarKaiser/readme_generator#contributing)
-4. [Licenses](https://github.com/AarKaiser/readme_generator#licenses)
-5. [Tests](https://github.com/AarKaiser/readme_generator#tests)
-6. [Technologies](https://github.com/AarKaiser/readme_generator#technologies)
-7. [Questions](https://github.com/AarKaiser/readme_generator#questions)
-8. [Screenshot](https://github.com/AarKaiser/readme_generator#screenshot)
+- [Team Profile Generator](#team-profile-generator)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    -  [Contributing](#contributing)
+    - [Licenses](#licenses)
+    - [Tests](#tests)
+    - [Technologies](#technologies)
+    - [Questions](#questions)
+    - [Screenshot](#screenshot)
+    - [Screenshot](#walkthrough-video)
 
 ## Installation: 
 
@@ -26,7 +28,7 @@ NPM i
 
 ## Dependencies:
 
-This application requires: Inquerer & Jest node packages.
+This application requires: Inquirer & Jest node packages.
 
 ## Usage: 
 
@@ -34,7 +36,7 @@ Answer the prompts in Node, and the rest is automated.
 
 ## Contributing:
 
-Aar Kaiser
+[Aar Kaiser](https://www.github.com/aarkaiser)
 
 
 ## Licenses:
